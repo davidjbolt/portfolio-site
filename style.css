@@ -2,13 +2,13 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:        #ffffff;
-  --bg-alt:    #f7f8fa;
-  --text:      #1a1a2e;
-  --text-muted:#6b7280;
-  --accent:    #1d4ed8;
-  --accent-hover: #1e40af;
-  --border:    #e5e7eb;
+  --bg:        #0f172a;
+  --bg-alt:    #1e293b;
+  --text:      #f1f5f9;
+  --text-muted:#94a3b8;
+  --accent:    #3b82f6;
+  --accent-hover: #2563eb;
+  --border:    #2d3f58;
   --radius:    8px;
 }
 
@@ -34,7 +34,7 @@ a { color: inherit; text-decoration: none; }
 nav {
   position: sticky;
   top: 0;
-  background: rgba(255,255,255,0.92);
+  background: rgba(15,23,42,0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   z-index: 100;
@@ -165,7 +165,7 @@ h2 {
 }
 
 .skill-card {
-  background: var(--bg);
+  background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 24px;
